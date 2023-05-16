@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  :root {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    background: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.4rem 5.6rem;
+    gap: 9.9rem;
+    position: relative;
+    width: 79.5rem;
+    height: 68.9rem;
+    background: #FFFFFF;
+    border-radius: 4rem;
+  }
+
+  .frame {
+    width: 16.8rem;
+    height: 1.7rem;
+
+    background: #E5D8EA;
+    border-radius: 99.9rem;
+  }
+
+
+  title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+  }
+
+  .title h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+    color: #372D3B;
+  }
+
+  .title span {
+    color: #864293;
+  }
+
+  .title p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #372D3B;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10.5rem;
+  }
+
+  .info h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+    color: #372D3B;
+  }
+
+  .info p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: #372D3B;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  footer input {
+    width: 51.69rem;
+    height: 6.4rem;
+
+    background: #F5EDF7;
+    border-radius: 2.4rem;
+  }
+
+  input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #372D3B;
+    padding-left: 2.9rem;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+  }
